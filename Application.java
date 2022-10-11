@@ -31,4 +31,13 @@
 		printOne();
 		printOne();
 	}
+	#feature 301 changes done by Hemanth on Aug31 for the module FileRegistration
+	//reads all data from inputfile.txt
+	{
+	sourceFile.read(array);
+	//writes all data to newFile
+	destFile.write(array);
+	System.out.println("The input.txt file is copied to newFile");
+	}
+	
 }
