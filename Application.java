@@ -31,4 +31,14 @@
 		printOne();
 		printOne();
 	}
+	#feature302 changes by Vivek on Aug31 on Login module
+	public static void sampleMethod(int a, int b) throws ArithmeticException{
+		System.out.println("Hello , its a sample method");
+		int c=a/b;int c=4/2 which gets calculated as 2
+		System.out.println("c:"+c);
+	catch (Exception){
+		e.getStackTrace();
+	}
+	
+	}
 }
